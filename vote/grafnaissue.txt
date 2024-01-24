@@ -1,0 +1,52 @@
+Grafana on AWS, you have two primary options: managed Grafana from AWS or self-hosting on an EC2 instance.
+
+Managed Grafana (Grafana Cloud)
+
+Pricing: Per-user billing based on chosen plan (Free, Standard, or Enterprise).
+Key features:
+Simplified setup and management.
+Pre-built and curated dashboards for common AWS services.
+Seamless integration with AWS CloudWatch and other AWS services.
+Scalability and high availability.
+Access control and user management.
+Considerations:
+Potential cost if you have many users.
+Less customization compared to self-hosting.
+Vendor lock-in to some extent.
+Self-Hosting Grafana on EC2
+
+Pricing: No per-user fees, only the cost of running an EC2 instance and additional resources.
+Key features:
+Full control and customization over Grafana configuration.
+Integrates with any data source, including CloudWatch and external sources.
+Can be integrated with your existing infrastructure and security policies.
+Considerations:
+Requires manual setup and management.
+Additional infrastructure costs may arise.
+Security and availability require careful planning and implementation.
+Choosing the Right Option for You:
+
+The best option for you depends on your specific needs and priorities:
+
+Managed Grafana is ideal if:
+You have a small number of users.
+You need quick and easy setup and management.
+You value integration with AWS services and pre-built dashboards.
+Cost is not a major concern.
+Self-hosting on EC2 is ideal if:
+You have a large number of users.
+You need maximum control and customization.
+You have existing infrastructure and security policies to integrate with.
+You are comfortable with manual setup and management.
+Additional Considerations:
+
+Scalability: Managed Grafana can automatically scale with your needs, while self-hosting requires manual scaling or infrastructure optimization.
+Security: Implement robust security measures on your EC2 instance and data sources if self-hosting.
+Monitoring: Set up monitoring of your Grafana instance, whether self-hosted or managed, for uptime and performance insights.
+
+
+open-source Grafana versions according to
+
+v10.2.3 released on 2023-12-18
+v10.1.6 released on 2023-12-18
+v10.0.10 released on 2023-12-18
